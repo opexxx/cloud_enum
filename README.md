@@ -45,7 +45,7 @@ Keywords are mutated automatically using strings from `enum_tools/fuzz.txt` or a
 Let's say you were researching "somecompany" whose website is "somecompany.io" that makes a product called "blockchaindoohickey". You could run the tool like this:
 
 ```sh
-cloudenum.py -k somecompany -k somecompany.io -k blockchaindoohickey
+cloud_enum.py -k somecompany -k somecompany.io -k blockchaindoohickey
 ```
 
 HTTP scraping and DNS lookups use 5 threads each by default. You can try increasing this, but eventually the cloud providers will rate limit you. Here is an example to increase to 10.
